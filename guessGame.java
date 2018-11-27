@@ -64,3 +64,19 @@ public class GuessGame {
         } //end loop
     } //end method
 } //end class
+
+public class Player {
+    int number = 0; //guess
+
+    public void guess() {
+        number = (int) (Math.random() * 10);
+        System.out.println("I'm guess " + number);
+    }
+}
+
+public class GameLauncher {
+    public static void main (String[] args) {
+        GuessGame game = new GuessGame();
+        game.startGame();
+    }
+}
