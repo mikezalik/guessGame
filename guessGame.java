@@ -1,4 +1,5 @@
 //Java command line number guessing game
+import java.lang.*;
 
 public class GuessGame {
     Player p1;
